@@ -4,28 +4,23 @@ import java.util.Scanner;
 
 import exercicios.Questao;
 
-
-
-
-
 public class Questao08 extends Questao {
 
 
     public void processar() {
 
-        double num1 = 17;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("qual sua idade? ");
+        int idade = scanner.nextInt();
 
-        if(num1 >= 18){
+
+        if(idade >= 18){
             System.out.println("you,re an adult ");
         }
         
         else{
             System.out.println("you aren't an adult ");
         }
-
-            
-
-    
 
     }
     

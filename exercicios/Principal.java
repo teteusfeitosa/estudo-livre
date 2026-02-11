@@ -9,6 +9,7 @@ import exercicios.lista01.Questao04;
 import exercicios.lista01.Questao05;
 import exercicios.lista01.Questao06;
 import exercicios.lista01.Questao07;
+import exercicios.lista02.Questao08;
 
 public class Principal {
 
@@ -36,7 +37,8 @@ public class Principal {
                 questao = new Questao06();    
             case "7":
                 questao = new Questao07();    
-
+            case "8":
+                questao = new Questao08();    
                 break;
             default:
                 questao = new Questao01();
