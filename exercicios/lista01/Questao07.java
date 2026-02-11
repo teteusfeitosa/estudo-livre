@@ -10,7 +10,7 @@ public class Questao07 extends Questao {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("despesa prévia é de :");
+        System.out.print("despesa prévia é de:");
         double despesa = scanner.nextDouble();
 
         double percentualDaGorjeta = 0.1;

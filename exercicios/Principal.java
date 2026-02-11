@@ -36,6 +36,7 @@ public class Principal {
                 questao = new Questao06();    
             case "7":
                 questao = new Questao07();    
+
                 break;
             default:
                 questao = new Questao01();
