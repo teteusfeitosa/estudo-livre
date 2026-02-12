@@ -21,6 +21,9 @@ public class Questao09 extends Questao {
         else{
             System.out.println("you aren't an adult ");
         }
+        
+        scanner.close();
+
 
     }
     

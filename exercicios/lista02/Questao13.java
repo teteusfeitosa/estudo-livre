@@ -3,11 +3,12 @@ import java.util.Scanner;
 
 import exercicios.Questao;
 
-public class Questao12 extends Questao {
+public class Questao13 extends Questao {
 
     public void processar(){
         Scanner scanner = new Scanner(System.in);
         double nota1 = 0, nota2 = 0, nota3 = 0;
+        double provaFinal = 0;
 
         System.out.println("coloque suas 3 notas aqui de 0 a 10");
         nota1 = scanner.nextDouble();
@@ -19,15 +20,33 @@ public class Questao12 extends Questao {
         System.out.println("sua média é de " + media );
 
         if(media >= 7){
-            System.out.println("parabéns,você foi aprovado");
+            System.out.println("parabéns,você foi aprovado ");
         }
         else if(media >= 5 && media < 7){
             System.out.println("você ficou na média de recuperação");
+            System.out.print("após fazer a prova Final qual nota vocẽ tirou? ");
+            provaFinal = scanner.nextDouble();        
         }
+
         else{
             System.out.println("que pena, você foi reprovado");
         }
+
+
         
+        if(provaFinal >= 5){
+            
+            System.out.println("vocẽ foi aprovado na prova de recuperação");
+        }
+        else if (media >= 7 ) {
+            System.out.println("não precisa fazer recuperação");
+
+        }
+        else if (provaFinal < 5){
+            System.out.println("vocẽ reprovou na recuperação");
+        }
+
+
         scanner.close();
 
     }
