@@ -24,7 +24,7 @@ public class Questao18 extends Questao {
         else if(dia < 1 || dia > 30){
             System.out.println("data inválida");
         }
-        else if(trimestre > 1){
+        else if(trimestre < 1 || trimestre > 4){
             System.out.println("data inválida");
         }
 
