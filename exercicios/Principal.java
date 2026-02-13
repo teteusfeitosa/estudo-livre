@@ -15,6 +15,8 @@ import exercicios.lista02.Questao10;
 import exercicios.lista02.Questao11;
 import exercicios.lista02.Questao12;
 import exercicios.lista02.Questao13;
+import exercicios.lista02.Questao14;
+import exercicios.lista02.Questao15;
 
 
 public class Principal {
@@ -35,26 +37,42 @@ public class Principal {
                 break;
             case "3":
                 questao = new Questao03();
+                break;
             case "4":
                 questao = new Questao04();
+                break;
             case "5":
                 questao = new Questao05();
+                break;
             case "6":
                 questao = new Questao06();    
+                break;
             case "7":
                 questao = new Questao07();    
+                break;
             case "8":
                 questao = new Questao08();
+                break;
             case "9":
                 questao = new Questao09();
+                break;
             case "10":
                 questao = new Questao10();
+                break;
             case "11":
                 questao = new Questao11();
+                break;
             case "12":
                 questao = new Questao12();
+                break;
             case "13":
-                questao = new Questao13();                        
+                questao = new Questao13();
+                break;
+            case "14":
+                questao = new Questao14();                            
+                break;
+            case "15":
+                questao = new Questao15();    
                 break;
             default:
                 questao = new Questao01();
