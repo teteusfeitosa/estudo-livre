@@ -1,9 +1,11 @@
 package exercicios.lista02;
 
 import exercicios.Questao;
+/*
+* adicione ao exercício anterior a data de hoje. A partir disso defina a idade do sujeito
+*/
 
 public class Questao18 extends Questao {
-
 
     public void processar(){
           
@@ -15,9 +17,7 @@ public class Questao18 extends Questao {
         int anoNascimento = 2005;
         int anoAtual = 2026;
         int idade = anoAtual - anoNascimento;
-        
-
-        
+                
         if(me < 1 || me > 12){
             System.out.println("data inválida");
         }
