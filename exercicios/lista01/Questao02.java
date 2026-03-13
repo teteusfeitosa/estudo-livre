@@ -3,7 +3,9 @@ package exercicios.lista01;
 import java.util.Scanner;
 
 import exercicios.Questao;
-
+/**
+ * Calcule o salário mínimo, salário do cidadão referido e atribua quantas salários ele ganha unitariamente
+ */
 public class Questao02 extends Questao {
 
     public void processar(){

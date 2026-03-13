@@ -3,7 +3,9 @@ package exercicios.lista01;
 import java.util.Scanner;
 
 import exercicios.Questao;
-
+/** 
+* Determine o percentual de homens e mulheres na faculdade
+*/
 public class Questao03 extends Questao {
 
     public void processar() {

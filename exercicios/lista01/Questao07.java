@@ -3,6 +3,9 @@ package exercicios.lista01;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/* 
+* Calcule a gorjeta de um garçom e atribua o valor total dessa conta acrescida da gorjeta
+*/
 
 public class Questao07 extends Questao {
 
@@ -14,10 +17,12 @@ public class Questao07 extends Questao {
         double despesa = scanner.nextDouble();
 
         double percentualDaGorjeta = 0.1;
+        double gorjetaDoGarçom = despesa * percentualDaGorjeta;
+        double despesaTotal = (despesa + gorjetaDoGarçom );
 
-        System.out.println("a gorjeta do garçom é: " + (percentualDaGorjeta * despesa));
+        System.out.println("a gorjeta do garçom é: " + (gorjetaDoGarçom));
 
-        System.out.println("valor da despesa acrescido com a gorjeta: " + (despesa + (percentualDaGorjeta * despesa) ) );
+        System.out.println("valor da despesa acrescido com a gorjeta: " + (despesaTotal));
 
         scanner.close();
 

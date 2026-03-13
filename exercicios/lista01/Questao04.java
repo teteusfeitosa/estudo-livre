@@ -3,6 +3,9 @@ package exercicios.lista01;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/**
+ * Calcule a média de 4 notas
+ */
 
 public class Questao04 extends Questao {
     public void processar() {
