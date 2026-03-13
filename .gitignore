@@ -1,7 +1,4 @@
 *.class
 Questao
-a.out
-
-
-
-
+*.vscode
+*.json

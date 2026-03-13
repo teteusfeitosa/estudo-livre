@@ -35,19 +35,19 @@ public class Questao21 extends Questao {
             System.out.println("não pode fazer esse empréstimo");
         }
         else{
-            System.out.println("O diretor vai receber " + emDiretor );
+            System.out.println("O diretor vai receber " + emDiretor);
         }
         if(emGerente > limiteGerente){
             System.out.println("não pode fazer esse empréstimo");
         }
         else{
-            System.out.println("O gerente vai receber " + emGerente );
+            System.out.println("O gerente vai receber " + emGerente);
         }
         if(emOperador > limiteOperador){
-            System.out.println("não pode fazer esse empréstimo" );
+            System.out.println("não pode fazer esse empréstimo");
         }
         else{
-            System.out.println("O operador vai receber " + emOperador );
+            System.out.println("O operador vai receber " + emOperador);
         }
         scan.close();
 
