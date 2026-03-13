@@ -1,6 +1,9 @@
 package exercicios.lista02;
 
 import exercicios.Questao;
+/* 
+* Verifique a validade de uma data de aniversário estabelecida
+*/
 
 public  class Questao15 extends Questao {
     public void processar(){
@@ -21,23 +24,7 @@ public  class Questao15 extends Questao {
 
         }
         
-        
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-        
-        
-        
+    }                
         
 
     }

@@ -2,6 +2,9 @@ package exercicios.lista02;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/* 
+* Calcule a média e diga se o indivíduo vai pra a recuperação,aprovado ou reprovado
+*/
 
 public class Questao12 extends Questao {
 

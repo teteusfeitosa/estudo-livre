@@ -1,20 +1,19 @@
 package exercicios.lista02;
 
 import exercicios.Questao;
+/* 
+* Acrescente ao exercício anterior o signo do indivíduo
+*/
 
 public class Questao17 extends Questao {
-
 
     public void processar(){
           
         int me = 2, dia = 5;
         int trimestre = 1;
         String signo = "aquário";
-
         String mes = "fevereiro";
-        
-
-        
+                
         if(me < 1 || me > 12){
             System.out.println("data inválida");
         }
@@ -26,18 +25,14 @@ public class Questao17 extends Questao {
         }
 
         else{
-            System.out.println("seu aniversário é no dia " + dia + " e no mês " + mes + " datando no dia " + dia + " do mês " + me   );
+            System.out.println("seu aniversário é no dia " + dia + " e no mês " + mes + " datando no dia " + dia + " do mês " + me);
             System.out.println("vocẽ nasceu no " + trimestre  + " trimestre");
             System.out.println("seu signo é de " + signo );
 
-        }
-       
-
-
-
-
+        }       
 
     }
     
+
 }
 

@@ -3,6 +3,9 @@ package exercicios.lista02;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/*
+* faça a divisão de um número que não tenha denominador igual a 0 
+*/
 
 public class Questao08 extends Questao {
 
@@ -18,10 +21,11 @@ public class Questao08 extends Questao {
         System.out.print("coloque o denominador do número racional: ");
         denominador = scanner.nextDouble();
 
-        System.out.println("o número racional vai virar o valor de: " + (numerador / denominador) );
-
         if(denominador == 0){
             System.err.println("errou");
+        }
+        else{
+            System.out.println("o número racional vai virar o valor de: " + (numerador / denominador) );
         }
 
         scanner.close();

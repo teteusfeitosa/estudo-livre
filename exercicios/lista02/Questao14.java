@@ -2,6 +2,9 @@ package exercicios.lista02;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/* 
+* Receba do usuário o nome de um mês. Exiba o número equivalente
+*/
 
 public  class Questao14 extends Questao {
     public void processar(){

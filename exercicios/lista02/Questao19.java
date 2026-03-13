@@ -3,6 +3,9 @@ package exercicios.lista02;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/* 
+* exiba dois números em ordem crescente
+*/
 
 public class Questao19 extends Questao {
 

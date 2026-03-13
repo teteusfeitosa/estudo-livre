@@ -3,6 +3,9 @@ package exercicios.lista02;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/* 
+* Use condicional para determinar se o indivíduo é adulto ou não
+*/
 
 public class Questao09 extends Questao {
 

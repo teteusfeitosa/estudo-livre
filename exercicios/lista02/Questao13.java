@@ -2,6 +2,9 @@ package exercicios.lista02;
 import java.util.Scanner;
 
 import exercicios.Questao;
+/*
+* Acrescentando ao exercício anterior a possibilidade de fazer a prova final quem ficou de recuperação
+*/
 
 public class Questao13 extends Questao {
 
