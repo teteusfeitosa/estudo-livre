@@ -1,5 +1,5 @@
 /*
-* Brincando no output e input
+* usando scanf
 */
 
 

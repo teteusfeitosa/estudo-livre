@@ -15,7 +15,7 @@ public class Questao06 extends Questao {
         Double pi = Math.PI;
         double raio = 5;
         double area = (raio * raio * pi); 
-        System.out.println("área do círculo é : " + (area) + "cm^2");
+        System.out.println("área do círculo é : " + (area) + "cm²");
 
         scanner.close();
 

@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+* Fazendo algumas operações em c
+*/
+
 int main(){ 
     float x = 2;
     float y = 3;

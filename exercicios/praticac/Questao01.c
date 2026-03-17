@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h> 
 
+/*
+* Primeiro contato c/ c
+*/
 int main(){
     float pib = 20.22435;
     float preço = 23.25;

@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/*
+* atribuindo variáveis
+*/
+
 int main(){
     int age = 1;
     int age1 = 10;

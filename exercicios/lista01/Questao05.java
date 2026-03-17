@@ -19,7 +19,7 @@ public class Questao05 extends Questao {
         System.out.print("quantidade de meses: ");
         double mes = scanner.nextDouble();
         
-        System.out.print("taxa de juros:(de 0 a 1) ");
+        System.out.print("taxa de juros:(de 0 a 1): ");
         
         double taxaDeJuros = scanner.nextDouble();
         double juros = (debitoInicial * taxaDeJuros * mes);
