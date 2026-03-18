@@ -22,24 +22,10 @@ int main(){
     printf("o volume da esfera é %lfcm²\n",volumeEsfera );
 
     double raioQuadrado = raioe * raioe;
-    double areaEs = pi * raioQuadrado;
+    double areaEs = 4 * pi * raioQuadrado;
     
-    printf("qual valor da área da esfera sabendo do raio já dado pelo usuário?\n %lfcm²5\n", areaEs);
-    
-
-
-
-    
-
-
-
-
-    
-    
-    
-    
-    
-    
+    printf("qual valor da área da esfera sabendo do raio já dado pelo usuário?\n %lfcm²\n", areaEs);
+        
     return 0;
 
 }

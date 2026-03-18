@@ -22,16 +22,16 @@ int main(){
     scanf("%f", &pib );
 
     //printf("Qual seu nome completo? ");
-    //scanf("%s", &nome ); n suporta espaços
+    //scanf("%s", &nome); n suporta espaços
     getchar();
     printf("qual seu nome completo: ");
     fgets(nome,sizeof(nome),stdin );
     nome[strlen(nome) -1 ] = '\0';
 
-    printf("%d\n", idade );
-    printf("%.2lf\n", tamanhoDaPeça );
-    printf("%.2f\n", pib );
-    printf("%s\n", nome );
+    printf("%d\n", idade);
+    printf("%.2lf\n", tamanhoDaPeça);
+    printf("%.2f\n", pib);
+    printf("%s\n", nome);
     
 
 

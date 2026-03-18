@@ -25,14 +25,6 @@ int main(){
     total = quantidade * preço;
 
     printf("o total foi de R%c%.2f\n ",moeda, total);
-
-
-
-
-
-
-
-
-
+    
     return 0;
 }
