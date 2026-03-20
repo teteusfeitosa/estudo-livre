@@ -4,7 +4,7 @@
 * calculando volume,área da esfera e área do círculo 
 */
 int main(){
-    double pi = 3.1415; 
+    const double pi = 3.1415; 
     double raioc = 0;
     
     printf("qual valor do raio do círculo: ");
