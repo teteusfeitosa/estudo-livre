@@ -23,22 +23,15 @@ int main(){
     else{
         double salariobruto = valorDaHora * horasTrabalhada * diasTrabalho;
         
-        printf("O seu salário bruto é de %lfR$\n",salariobruto);
+        printf("O seu salário bruto é de %.2lfR$\n",salariobruto);
         
         double desconto = 0.1 * salariobruto;
 
-        printf("O total de desconto é de %lfR$\n",desconto);
+        printf("O total de desconto é de %.2lfR$\n",desconto);
         
         double liquido = salariobruto - desconto;
 
-        printf("O seu salário líquido será dde %lfR$\n",liquido);
+        printf("O seu salário líquido será de %.2lfR$\n",liquido);
     }  
-
-    
-
-
-
-
-
     return 0;
 }

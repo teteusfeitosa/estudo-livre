@@ -23,12 +23,6 @@ int main(){
     printf("O gasto de combustível foi de %.2lf litros\n",litrosGastos);
 
     printf("A distância total percorrida foi de %.2lf km\n",distanciaPercorrida);
-
-
-
-
-
-
-
+    
     return 0;
 }
