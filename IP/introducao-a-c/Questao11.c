@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-// Usando estruturas de condicão aninhadas
+// Usando estruturas de condicão aninhadas(nested loops)
 int main(){
     float preço = 10;
     bool estudante = false; //desconto de 10%if
@@ -26,10 +26,7 @@ int main(){
     }
 
     printf("o valor do ingresso será de %.2fR$\n",preço);
-    
-    
-    
-    
+        
     return 0;
     }
 

@@ -8,7 +8,9 @@ int main(){
     scanf("%d",&num1);
     scanf("%d",&num2);
 
-    int soma = (num1 /10) +  (num1 % 10) + (num2 /10) + (num2 % 10);
+//unidade em c,dezena e centena = número % 10, (número/10) % 10 (número/100) % 10,padrão de (múmero\10^k) % 10
+
+    int soma = (num1 % 10) +  ((num1/10) %10) + (num2 % 10) + ((num2/10) % 10);
 
     printf("Resultado : %d\n",soma);
 
