@@ -11,7 +11,7 @@ int main(){
     scanf("%lf",& raioc);
     
     double areaCirculo = (pi * (raioc * raioc));
-    printf("o valor da área será de %lfcm²\n", areaCirculo );
+    printf("o valor da área do círculo será de %lfcm²\n", areaCirculo );
 
     double raioe = 0;
     printf("qual valor do raio da esfera: ");

@@ -2,7 +2,7 @@
 #include <string.h>
 // usando funções = reutilizavel código
 
-void felizAniversário(char nome [],int idade){
+void felizAniversario(char nome [],int idade){
     printf("\nParabéns para vocẽ\n");
     printf("nessa data querida\n");
     printf("muitas felicidades\n");
@@ -22,7 +22,7 @@ int main(){
     printf("coloque sua idade: ");
     scanf("%d",&idade);
         
-    felizAniversário(nome , idade); 
+    felizAniversario(nome , idade); 
     // Em ordem dos parâmetros p/ n/ dar erro
 
     return 0;

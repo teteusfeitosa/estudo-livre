@@ -21,8 +21,6 @@ int main(){
         fgets(nome,sizeof(nome),stdin);
         nome[strlen(nome) -1] = '\0';
 
-
-
     }
     printf("Olá %s\n",nome);
 
