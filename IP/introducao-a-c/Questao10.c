@@ -32,8 +32,6 @@ int main(){
         default:
             printf("coloque apenas números de (1-7)\n");    
     }
-    
-    
-    
+        
     return 0;
 }

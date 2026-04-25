@@ -20,7 +20,7 @@ int main(){
         c = x;
     }
     if(b > c){
-        b = x;
+        x = b;
         b = c;
         c = x;
     }

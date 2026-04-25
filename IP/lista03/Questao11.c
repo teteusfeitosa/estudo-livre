@@ -3,7 +3,6 @@
 Para doar sangue é necessário ter entre 16 e 69 anos. Faça um programa que
 pergunte a idade de uma pessoa e diga se ela pode doar sangue ou não.
 */
-
 int main(){
     char op = '\0';
     int idade = 0;
