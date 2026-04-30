@@ -22,12 +22,8 @@ int duracaoJogo(int horaIn, int minutoIN, int horaFim, int minutoFim){
     return duracao;
 }
 
-
-
 int main(){
     int horaIn,horaFim,minutoIn,minutoFim;
-
-
 
     printf("Qual horário inicial(horas e minutos)\n");
     scanf("%d  %d",&horaIn, &minutoIn);
@@ -38,8 +34,6 @@ int main(){
     int duracao = duracaoJogo(horaIn,minutoIn,horaFim,minutoFim);
 
     printf("A duração do jogo foi de %d minutos\n",duracao);
-
-
 
     return 0;
 }

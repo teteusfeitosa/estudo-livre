@@ -36,7 +36,7 @@ int main(){
     if(categoriaN == '0'){
         printf("Idade fora da categoria\n");
     }
-        else{
+    else{
         printf("Sua categoria é %c\n", categoriaN);
     }
 

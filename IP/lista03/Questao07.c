@@ -15,10 +15,5 @@ int main(){
     else{
         printf("Esse quadrilátero não é um quadrado\n");
     }
-
-
-
-
-
     return 0;
 }

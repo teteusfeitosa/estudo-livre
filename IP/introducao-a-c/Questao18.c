@@ -21,7 +21,7 @@ int n,soma = 0;
     }
     
     printf("Soma = %d\n",soma);
-somador básico de while
+    somador básico de while
 */
 /*
 int n;
@@ -65,7 +65,5 @@ int main(){
         printf("%d x %d = %d \n",a,i,c);
         i++;
     }
-    
-    
     return 0;
 }

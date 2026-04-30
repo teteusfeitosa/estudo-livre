@@ -12,10 +12,8 @@ float raiz1(float a,float b, float c){
     }
     else{
         return raiz1_;
-    }
-    
+    }    
 }
-
 float raiz2(float a,float b,float c){
     float delta = pow(b,2) - 4 * a * c;
     float raiz2_ = (-b  - sqrt(delta)) / (2 * a);
@@ -24,8 +22,7 @@ float raiz2(float a,float b,float c){
     }
     else{
         return raiz2_;
-    }
-    
+    }   
 }
 int main(){
 
@@ -39,7 +36,7 @@ int main(){
     float primeiraRaiz = raiz1(a,b,c);
     float segundaRaiz = raiz2(a,b,c);
     
-    if(primeiraRaiz == 0 || segundaRaiz == 0){
+    if(primeiraRaiz == 0 && segundaRaiz == 0){
         printf("não existe raiz real\n");
     }
     else{

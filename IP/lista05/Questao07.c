@@ -18,14 +18,9 @@ int main(){
     printf("Coloque os minutos do primeiro e do segundo\n");
     scanf("%d %d",&min1,&min2);
 
-
-
     int diferença = diff(min1,min2);
 
-    printf("A diferença entre os tempos dos dois em segundos é de %d",diferença);
-
-
-
+    printf("A diferença entre os tempos dos dois em segundos é de %d\n",diferença);
 
     return 0;
 }
