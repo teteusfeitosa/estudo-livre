@@ -7,7 +7,7 @@ de duração de um jogo é de 24 horas e que o jogo pode começar em um dia e te
 outro.
 */
 
-int duracaoJogo(int horaIn, int minutoIN, int horaFim, int minutoFim){
+int duracaoJogo (int horaIn, int minutoIN, int horaFim, int minutoFim){
     
     int inicio = horaIn * 60 + minutoIN;
     int fim = horaFim * 60 + minutoFim;
@@ -15,7 +15,7 @@ int duracaoJogo(int horaIn, int minutoIN, int horaFim, int minutoFim){
     int duracao = fim - inicio;
 
     // se virou o dia
-    if(duracao < 0){
+    if (duracao < 0){
         duracao += 24 * 60;
     }
 
@@ -23,17 +23,17 @@ int duracaoJogo(int horaIn, int minutoIN, int horaFim, int minutoFim){
 }
 
 int main(){
-    int horaIn,horaFim,minutoIn,minutoFim;
+    int horaIn ,horaFim ,minutoIn ,minutoFim;
 
-    printf("Qual horário inicial(horas e minutos)\n");
-    scanf("%d  %d",&horaIn, &minutoIn);
+    printf ("Qual horário inicial(horas e minutos)\n");
+    scanf ("%d  %d",&horaIn, &minutoIn);
 
-    printf("Qual horário final(horas e minutos)\n");
-    scanf("%d  %d",&horaFim, &minutoFim);
+    printf ("Qual horário final(horas e minutos)\n");
+    scanf ("%d  %d",&horaFim, &minutoFim);
 
-    int duracao = duracaoJogo(horaIn,minutoIn,horaFim,minutoFim);
+    int duracao = duracaoJogo (horaIn,minutoIn,horaFim,minutoFim);
 
-    printf("A duração do jogo foi de %d minutos\n",duracao);
+    printf ("A duração do jogo foi de %d minutos\n", duracao);
 
     return 0;
 }

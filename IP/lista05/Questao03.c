@@ -6,29 +6,29 @@ via switch-case (dica: divida por 10), atribui conceitos A, B, C, D ou F.
 
 int main(){
     int nota = 0;
-    printf("Qual sua nota na prova?\n");
-    scanf("%d",&nota);
+    printf ("Qual sua nota na prova?\n");
+    scanf ("%d", &nota);
     char conceito = '\0';
     char resultado = '\0'; 
 
     
-    if(nota> 100 || nota < 0){
-        printf("Não é possível essa nota\n");
+    if (nota > 100 || nota < 0){
+        printf ("Não é possível essa nota\n");
     }           
     else{
-        if(nota < 25){
+        if (nota < 25){
             conceito = 'E';
         }    
-        else if(nota >= 25 && nota < 30 ){
+        else if (nota >= 25 && nota < 30 ){
             conceito = 'D';
         }    
-        else if(nota >= 30 && nota < 70){
+        else if (nota >= 30 && nota < 70){
             conceito = 'C';
         }    
-        else if(nota >= 70 && nota <= 99){
+        else if (nota >= 70 && nota <= 99){
             conceito = 'B';
         }    
-        else if(nota == 100){
+        else if (nota == 100){
             conceito = 'A';
         } 
         switch (conceito){

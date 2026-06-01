@@ -16,15 +16,12 @@ int main(){
         else{
             impar++;
         }
-        printf("Deseja continuar(S = sim ou s = sim)\n");
+        printf("Deseja continuar(S = sim||s = sim ou n = não)\n");
         scanf(" %c",&op);        
 
     }
     printf("total de pares é de %d\n",par);
     printf("O total de iḿpares é de %d\n",impar);
-
-
-
 
     return 0;
 }

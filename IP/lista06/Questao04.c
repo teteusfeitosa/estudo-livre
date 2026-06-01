@@ -36,7 +36,5 @@ int main(){
 
     }while (op != 'S');
 
-
-
     return 0;
 }

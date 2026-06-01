@@ -20,12 +20,12 @@ int main(void) {
     // controla as linhas
     for (int i = 1; i <= linhas; i++) {
 
-        // imprime os X
+        // imprime os *
         for (int j = 1; j <= (2 * i - 1); j++) {
             printf("*");
         }
 
-        printf("\n");
+        printf ("\n");
     }
 
     return 0;
