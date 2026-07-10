@@ -1,0 +1,10 @@
+package classe;
+
+public class Comida {
+	String nomeDaComida;
+	double pesoDaComida;
+	
+	Comida(){
+		
+	}
+}
