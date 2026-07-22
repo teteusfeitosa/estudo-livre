@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Leia o peso de duas pessoas e mostre quem é o mais pesado.
+//Leia o peso de duas Pessoa e mostre quem é o mais pesado.
 int main(){
     float peso1,peso2;
 

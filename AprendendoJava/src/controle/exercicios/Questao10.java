@@ -17,14 +17,11 @@ public class Questao10 {
 		int num = 0;
 		int maior = 0;
 		int menor = 0;
-		
-		
-		
+
 		while(num >= 0) {
 			System.out.println("Coloque um número");
 			num = sc.nextInt();
-			
-			
+
 			if(num > maior) {
 				maior = num;
 			}

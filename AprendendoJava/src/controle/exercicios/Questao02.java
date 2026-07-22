@@ -34,8 +34,6 @@ public class Questao02 {
 		}
 		
 		System.out.println("A numeração crescente será: " + n1 + " " + n2 + " " + n3);
-		
-		
-		
+
 	}
 }

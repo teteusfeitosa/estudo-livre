@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Exercicio {
 	public static void main(String[] args) {
 		double notas [] = new double[4];  // double [] notas = new double[3]
-		double nota [] = { 2, 3, 4, 5};
+		double nota []  = { 2, 3, 4, 5};
 		System.out.println(nota[nota.length - 1]);//último valor do array
 		notas[0] = 2;
 		notas[1] = 2;

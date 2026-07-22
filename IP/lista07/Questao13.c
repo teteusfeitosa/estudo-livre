@@ -9,12 +9,11 @@ int main (void){
     printf ("qual tamanho do quadrado?\n");
     scanf ("%d", &tamanho);
 
-    for(int i = 1; i <= tamanho; i++){
-        for(int j = 1; j <= tamanho; j++){
-            printf("*");
+    for (int i = 1; i <= tamanho; i++){
+        for (int j = 1; j <= tamanho; j++){
+            printf ("*");
         }
-        printf("\n");
-
+        printf ("\n");
     }
 
     return 0;

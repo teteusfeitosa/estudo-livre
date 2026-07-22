@@ -7,7 +7,7 @@ por valor.
 int diff (int min1,int min2){
     int diferença = min2 - min1;
 
-    if (diferença<0){
+    if (diferença < 0){
         diferença = ( - diferença); 
     }
     return 60 * diferença;

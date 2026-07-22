@@ -60,7 +60,7 @@ int main(){
     printf("Escolha um número pra fazer tabuada\n");
     scanf("%d",&a);
 
-    while(i<=10){
+    while(i <= 10){
         int c = a * i;
         printf("%d x %d = %d \n",a,i,c);
         i++;

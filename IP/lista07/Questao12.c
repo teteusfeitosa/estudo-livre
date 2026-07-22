@@ -12,7 +12,7 @@ int main(void){
     for (int i = 1; i < y; i++){
         resultado = resultado * x;   
     }
-    printf ("O resultado dessa operação é %d\n", resultado);
+    printf ("O resultado dessa operação é  %d\n", resultado);
 
     return 0;
 }

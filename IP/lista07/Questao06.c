@@ -8,15 +8,14 @@ int main(void){
 
     int fat = 0;
     int n;
-    printf("Qual fatorial vocẽ quer exibir?\n");
-    scanf("%d",&n);
+    printf ("Qual fatorial vocẽ quer exibir?\n");
+    scanf ("%d", &n);
     fat = n;
 
-    for(int i = 1; i<n; i++){
-        fat = fat * i;
-
+    for (int i = 1; i < n; i++){
+        fat *= i;
     }
-    printf("Seu fatorial é de %d\n",fat);
+    printf ("Seu fatorial é de %d\n",fat);
 
     return 0;
 }

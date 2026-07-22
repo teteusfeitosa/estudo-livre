@@ -1,12 +1,12 @@
-package collections;
+package arrays.collections;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class ConjuntoBagunçado {
 	public static void main(String[] args) {
-		HashSet conjunto = new HashSet();
-		
+		Set conjunto = new HashSet();
+
 		conjunto.add(1.2); // double -> Double
 		conjunto.add(true); // boolean -> Boolean
 		conjunto.add("Teste"); // String
@@ -37,7 +37,5 @@ public class ConjuntoBagunçado {
 		
 		conjunto.clear();
 		System.out.println(conjunto);
-		
-		
 	}
 }

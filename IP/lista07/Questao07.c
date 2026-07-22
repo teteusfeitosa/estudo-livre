@@ -17,7 +17,7 @@ int main (void){
         }
         
     if (primo == 1){
-        printf("Seu número primo é %d\n", n);
+        printf ("Seu número primo é %d\n", n);
 
     }
 

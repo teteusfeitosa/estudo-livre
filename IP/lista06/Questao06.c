@@ -17,12 +17,14 @@ int main(void) {
     printf ("Quantas linhas da piramide? ");
     scanf ("%d", &linhas);
 
-    // controla as linhas
     for (int i = 1; i <= linhas; i++) {
 
-        // imprime os *
+        for (int espaco = 1; espaco <= linhas - i; espaco++){
+            printf (" ");
+        }
+
         for (int j = 1; j <= (2 * i - 1); j++) {
-            printf("*");
+            printf ("*");
         }
 
         printf ("\n");

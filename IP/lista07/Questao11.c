@@ -15,7 +15,5 @@ int main(void){
     printf("-------------------------\n");
     printf ("A sua soma é %d\n", soma);
 
-
-
     return 0;
 }

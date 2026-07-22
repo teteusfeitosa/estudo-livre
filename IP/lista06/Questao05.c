@@ -17,7 +17,7 @@ int main(void){
     scanf ("%d", &linha);
 
     for (int j = 1; j <= linha; j++){
-        for (int i = 0; i < j * 2 ; i++){
+        for (int i = 0; i < j * 2; i++){
             printf ("%c", carac);
         }
         printf ("\n");

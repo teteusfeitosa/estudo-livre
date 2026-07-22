@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Leia a altura de duas pessoas e mostre quem é o mais alto.
+//Leia a altura de duas Pessoa e mostre quem é o mais alto.
 int main(){
     float altura1,altura2;
 

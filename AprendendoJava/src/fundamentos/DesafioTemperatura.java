@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class Temperatura {
+public class DesafioTemperatura {
 	
 	public static void main (String [] args) {
 		final int X = -32;

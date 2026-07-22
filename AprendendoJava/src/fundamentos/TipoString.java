@@ -1,7 +1,5 @@
 package fundamentos;
 
-
-
 public class TipoString {
 	public static void main(String[] args) {
 		System.out.println("Olá pessoal".charAt(2));
@@ -17,7 +15,7 @@ public class TipoString {
 		int idade = 25;
 		float dinheiro = 20000;
 		
-		//String frase = String.format // Igual ao printf
+		//String frase = String.format // (Igual ao printf)
 		
 		System.out.printf("Ele tem %d anos e possui %.2fR$\n",idade, dinheiro);
 		System.out.println("Frase qualquer".substring(6,10	));

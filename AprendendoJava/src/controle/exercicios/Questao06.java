@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // ache os números primos 
 public class Questao06 {
-	public static void main(String...args) {
+	static void main(String...args) {
 		Scanner sc = new Scanner(System.in);
 		int n;
 		System.out.println("Até que número quer verificar que é primo?");
