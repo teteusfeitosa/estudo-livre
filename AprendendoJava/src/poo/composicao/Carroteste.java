@@ -5,6 +5,8 @@ public class Carroteste {
         Carro c1 = new Carro();
         System.out.println(c1.estaLigado());
 
+        Carro c2 = new Carro();
+
         c1.ligar();
         System.out.println(c1.estaLigado());
 
